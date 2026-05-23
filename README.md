@@ -129,4 +129,4 @@ The news is Fake
 
 Ignesh Samal
 
-BTech CSE Student | Machine Learning Enthusiast
+BTech CE Student | Machine Learning Enthusiast
