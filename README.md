@@ -83,38 +83,7 @@ for binary classification of news articles.
 
 ## ▶️ How to Run the Project
 
-### 1️⃣ Clone the Repository
 
-```bash
-git clone <your-repository-link>
-```
-
-### 2️⃣ Install Required Libraries
-
-```bash
-pip install numpy pandas nltk scikit-learn
-```
-
-### 3️⃣ Run the Python File / Notebook
-
-```bash
-python fake_news_prediction.py
-```
-
----
-
-## 🔍 Example Prediction
-
-```python
-prediction = model.predict(X_new)
-```
-
-Output:
-```bash
-The news is Fake
-```
-
----
 ## 🌐 Run the Project on Google Colab
 
 Users can directly run this project on Google Colab without setting up anything locally.
@@ -135,19 +104,31 @@ or
 - **FAKE**
 
 ---
+Users can also test the model using their own custom news article.
 
 ### Example Input
 
 ```python
-news = "The government announced a new education policy today..."
+title = input("Enter news title: ")
+text = input("Enter news text: ")
+
+news = title + " " + text
 ```
+
+The entered news text is preprocessed and passed to the trained model for prediction.
 
 ### Example Output
 
 ```bash
+The news is FAKE
+```
+
+or
+
+```bash
 The news is REAL
 ```
----
+
 ## 📌 Future Improvements
 
 - Deploy using Flask/Streamlit
