@@ -115,7 +115,39 @@ The news is Fake
 ```
 
 ---
+## 🌐 Run the Project on Google Colab
 
+Users can directly run this project on Google Colab without setting up anything locally.
+
+### Steps to Use
+1. Open the Colab notebook  
+2. Click **"Copy to Drive"** to save your own editable copy  
+3. Upload the `fake_or_real_news.csv` dataset file when required  
+4. Run all the notebook cells  
+5. Go to the prediction section  
+6. Replace the input news text with your own news article/content  
+7. Execute the prediction cell  
+
+The model will predict whether the news is:
+
+- **REAL**
+or
+- **FAKE**
+
+---
+
+### Example Input
+
+```python
+news = "The government announced a new education policy today..."
+```
+
+### Example Output
+
+```bash
+The news is REAL
+```
+---
 ## 📌 Future Improvements
 
 - Deploy using Flask/Streamlit
